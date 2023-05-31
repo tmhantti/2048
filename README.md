@@ -1,7 +1,8 @@
 Student project for course 'Programming 2' (Tampere University, 2022). 
+
 Application done using C++/Qt. 
 
-* Rules of the game: 
+*Rules of the game:* 
 
  This program generates a game of 2048, a tile combining game
  where the goal is to get from 2's to 2^N where N is an integer
@@ -19,7 +20,7 @@ Application done using C++/Qt.
  Game will end when the value of the goal variable is reached
  (game won) or new tile can't be added to the board (game lost).
 
-* Overview: 
+*Overview:* 
 
 The project consists of the following files:
 
@@ -38,7 +39,7 @@ The project consists of the following files:
   
   (see below for GUI descriptiom)
 
-* GUI implementation: 
+*GUI implementation:* 
 
   Layout was done (to some extent) directly using QTcreator 
   (via manipulating directly "mainwindow.ui"). To display the gameboard 
@@ -46,7 +47,7 @@ The project consists of the following files:
   'mainwindow.hh' / 'mainwindow.cpp' 
   (see comments at the beginning of the files).  
 
-* GUI description
+*GUI description:*
 
  - player can choose seed value for random number generator (RNG),
    via 'spinBox' widget displayed on the GUI.
@@ -80,7 +81,7 @@ The project consists of the following files:
     with some GUI widgets (i.e. certain widgets are disabled / enabled 
     according to the gameplay state).  
 
-*  Extra features:
+*Extra features:*
 
  - Background colour of GUI changes according to the state of the game. 
    This was done by adding QGraphicsView/ QGraphicsScene elements.  
