@@ -97,7 +97,6 @@ The project consists of the following files:
 
  - Colors of the tile numbers in game board are changed according to the tile value.
    This done by introducing a vector specifying the colors (constant 'FONT_COLOURS') 
-   and adding a method ('setLabelFont') which changes the color of the 
-   of the text displayed in the label.  
+   and adding a method ('setLabelFont') which changes the color of the text displayed in the label.  
 
 
